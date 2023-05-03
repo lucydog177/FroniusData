@@ -25,7 +25,7 @@ You may also want to enable the Developer menu, to view and modify the VBA code.
 
 I run Microsoft Excel 2019 on Windows 10.  There are some Windows API calls for various things, and I try to maintain compatibility with both 32-bit and 64-bit versions of Microsoft Office.
 
-I have one Fronius inverter that feeds the electric grid for single-phase power (a.k.a.  North American split-phase power).  The inverter I use is this:  *Fronius Primo 6.0-1 208-240, firmware 3.23.6-1, SolarAPI v1.*
+I have one Fronius inverter that feeds the electric grid for single-phase power (a.k.a.  North American split-phase power).  The inverter I use is this:  *Fronius Primo 6.0-1 208-240, Datalogger 3.23.6-1, SolarAPI v1.*
 
 
 ## Usage
