@@ -1,7 +1,7 @@
 # FroniusData
 ## View and backup historical data for Fronius inverters with Microsoft Excel
 
-My free year of Fronius SolarWeb has expired.  Therefore, I created this application to backup and view the energy production data from my 6kW solar tracker.
+My free year of Fronius SolarWeb has expired.  Therefore, I created this tool to backup and view the energy production data from my 6kW solar tracker.
 
 ## Setup
 
@@ -32,14 +32,14 @@ I have one Fronius inverter that feeds the electric grid for single-phase power 
 
 To connect with the Fronius inverter on your local Ethernet or Wi-Fi network, you must enter either the "Inverter hostname" or "IP address" on the Excel worksheet.  Then click **Update Realtime Data** to connect.  If it works, you should see some information on the worksheet.  Great, now try viewing a Day chart for power generation.  Click the **Now** button next to the word "Day", to automatically pick today's date.  Then click **Show Chart**.
 
-You may also click **Backup Historical Data** to copy all your energy production data from the inverter.  This may take some time, as the latest Fronius inverters can store up to 10 years of data with the 5 minute recording interval turned on.  My 1.5 years of data takes almost an hour to download.  However, once your data is downloaded, the application never needs to ask the inverter again for this information. 
+You may also click **Backup Historical Data** to copy all your energy production data from the inverter.  This may take some time, as the latest Fronius inverters can store up to 10 years of data with the 5 minute recording interval turned on.  My 1.5 years of data takes almost an hour to download.  However, once your data is downloaded, this tool never needs to ask the inverter again for this information. 
 
 After backing up your historical data, an energy file is created and continuously maintained that tracks realtime power generation and cumulative energy production and consumption.  The file is called `energy.csv` and is located in the same folder as your historical data.  This is a flat file format that is easy to work with, compared to the structured JSON format returned by the Fronius inverter.
 
-In the evening, the Fronius inverter goes into standby mode and this application is designed for offline use. For this reason, historical data is stored on your computer. There is one JSON file for each day. These files are the exact JSON data returned by the Fronius inverter. The files are located here:
+In the evening, the Fronius inverter goes into standby mode and this tool is designed for offline use. For this reason, historical data is stored on your computer. There is one JSON file for each day. These files are the exact JSON data returned by the Fronius inverter. The files are located here:
 
 `C:\Users\{WINDOWS-USERNAME}\AppData\Roaming\FroniusData\inverter-{SERIAL-NUMBER}`
 
 ## Why?
-I don't want to pay Fronius just to access my own data.  These solar trackers cost between $25K and $35K and it should come with free SolarWeb, just like my Garmin GPS has free lifetime maps!  The main difference between this application and Fronius SolarWeb is that my historical data is stored locally on my computer, not in the cloud.  I chose to use Microsoft Excel because it was easy to get something up and running quickly while learning the Fronius SolarAPI.
+I don't want to pay Fronius just to access my own data.  These solar trackers cost between $25K and $35K and it should come with free SolarWeb, just like my Garmin GPS has free lifetime maps!  The main difference between this tool and Fronius SolarWeb is that my historical data is stored locally on my computer, not in the cloud.  I chose to use Microsoft Excel because it was easy to get something up and running quickly while learning the Fronius SolarAPI.
 
