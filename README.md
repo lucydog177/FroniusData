@@ -40,7 +40,7 @@ After backing up your historical data, an energy file is created and continuousl
 
 In the evening, the Fronius inverter goes into standby mode and this tool is designed for offline use. For this reason, historical data is stored on your computer. There is one JSON file for each day. These files are the exact JSON data returned by the Fronius inverter. The files are located here:
 
-`C:\Users\{USERNAME}\AppData\Roaming\FroniusData\inverter-{SERIAL-NUMBER}`
+`%APPDATA%\FroniusData\inverter-{SERIAL-NUMBER}`
 
 ## Why?
 I don't want to pay Fronius just to access my own data.  These solar trackers cost between $25K and $35K and it should come with free SolarWeb, just like my Garmin GPS has free lifetime maps!  The main difference between this tool and Fronius SolarWeb is that my historical data is stored locally on my computer, not in the cloud.  I chose to use Microsoft Excel because it was easy to get something up and running quickly while learning the Fronius SolarAPI.
