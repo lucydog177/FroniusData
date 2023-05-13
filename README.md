@@ -42,7 +42,7 @@ After backing up your historical data, an energy file is created and continuousl
 
 In the evening, the Fronius inverter goes into standby mode and this tool is designed for offline use. For this reason, historical data is stored on your computer. There is one JSON file for each day. These files are the exact JSON data returned by the Fronius inverter.
 
-Your data is store locally on your computer, here:
+Your data is stored locally on your computer, here:
 
 `%APPDATA%\FroniusData\inverter-{SERIAL-NUMBER}`
 
