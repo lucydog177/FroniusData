@@ -49,7 +49,7 @@ Your data is stored locally on your computer, here:
 
 |**Filename**|Description                                                    
 |---|---
-|_today.json      |Today's energy data. Updated daily.
+|_today.json      |Today's energy data. Updated whenever you view a chart for the current day.
 |yyyy-mm-dd.json  |Complete energy data for that day.
 |archive.ini      |Summary file contains begin and end dates for historical data.
 |energy.csv       |Cumulative energy data since the first day of data collection.
