@@ -43,17 +43,19 @@ After backing up your historical data, an energy file is created and continuousl
 In the evening, the Fronius inverter goes into standby mode and this tool is designed for offline use. For this reason, historical data is stored on your computer. There is one JSON file for each day. These files are the exact JSON data returned by the Fronius inverter.
 
 Your data is store locally on your computer, here:
+
 `%APPDATA%\FroniusData\inverter-{SERIAL-NUMBER}`
+
 where `%APPDATA%` is `{HOMEDRIVE}:\Users\{USERNAME}\AppData\Roaming`
 
 File descriptions
 ```
-|Filename        |Description                                                   |
-|----------------|--------------------------------------------------------------|
-|_today.json     |Today's energy data. Replaced daily.                          |
-|yyyy-mm-dd.json |Complete energy data for that day.                            |
-|archive.ini     |Summary file contains begin and end dates for historical data.|
-|energy.csv      |Cumulative energy data since the first day of data collection.|
+| Filename         | Description                                                    |
+| ---------------- | -------------------------------------------------------------- |
+| _today.json      | Today's energy data. Replaced daily.                           |
+| yyyy-mm-dd.json  | Complete energy data for that day.                             |
+| archive.ini      | Summary file contains begin and end dates for historical data. |
+| energy.csv       | Cumulative energy data since the first day of data collection. |
 ```
 
 If you try to access the inverter when it is off or in standy mode, the tool will temporarily switch to *offline mode*.  This is indicated by the presence of a time value, in the cell labeled, *Offline until*.  When you're in *offline mode*, the tool will not try to access the inverter everytime, and it will be faster.  The calculation for the time value of *Offline until* is automatic.  You may clear this value, if you want to re-try acessing the inverter again.
