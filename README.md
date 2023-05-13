@@ -46,7 +46,7 @@ Your data is stored locally on your computer, here:
 
 `%APPDATA%\FroniusData\inverter-{SERIALNUMBER}`, where `%APPDATA%` is `{HOMEDRIVE}:\Users\{USERNAME}\AppData\Roaming`
 
-File descriptions
+
 |**Filename**|Description                                                    
 |---|---
 |_today.json      |Today's energy data. Updated daily.
