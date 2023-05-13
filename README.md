@@ -54,7 +54,7 @@ Your data is stored locally on your computer, here:
 |archive.ini      |Summary file contains begin and end dates for historical data.
 |energy.csv       |Cumulative energy data since the first day of data collection.
 
-If you try to access the inverter when it is off or in standby mode, the tool will temporarily switch to *offline mode*.  This is indicated by the presence of a time value, in the cell labeled, *Offline until*.  When you're in offline mode, the tool will not try to access the inverter everytime, and it will be faster.  The calculation for the time value of *Offline until* is automatic.  You may clear this value, if you want to re-try accessing the inverter again.
+If you try to access the inverter when it is off or in standby mode, the tool will temporarily switch to *offline mode*.  This is indicated by the presence of a time value, in the cell labeled, *Offline until*.  When you're in offline mode, the tool will not try to access the inverter everytime, and it will be faster.  The calculation of the time value for *Offline until* is automatic.  You may clear this value, if you want to re-try accessing the inverter again.
 
 ## Why not Fronius SolarWeb?
 I don't want to pay them just to access my own data.  These solar trackers cost between $25K and $35K and it should come with free SolarWeb, just like my Garmin GPS has free lifetime maps!  The main difference between this tool and Fronius SolarWeb is that my historical data is stored locally on my computer, not in the cloud.  I chose to use Microsoft Excel because it was easy to get something up and running quickly while learning the Fronius SolarAPI.
