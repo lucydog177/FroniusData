@@ -30,7 +30,7 @@ I own a Fronius inverter that feeds the electric grid on single-phase power (som
 
 ## Usage
 
-To connect with the Fronius inverter on your local Ethernet or Wi-Fi network, you must first type the *Inverter hostname* or *IP address* on the Excel worksheet.  If you do not know either of these properties, the tool will search your local network for all Fronius inverters and show the results on the Devices worksheet.  Click **Update Realtime Data** to connect to the inverter.  If you did not initially type the "Inverter hostname" or "IP address", the tool will default the "IP address" to the first Fronius inverter found on your local network, and you will have to click the button a second time to connect.  If it works, you should see some information on the worksheet.
+To connect with the Fronius inverter on your local Ethernet or Wi-Fi network, you must first type the *Inverter hostname* or *IP address* on the Excel worksheet.  If you do not know either of these properties, the tool will search your local network for all Fronius inverters and show the results on the Devices worksheet.  Click **Update Realtime Data** to connect to the inverter.  If you did not initially type the *Inverter hostname* or *IP address, the tool will default the *IP address* to the first Fronius inverter found on your local network, and you will have to click the button a second time to connect.  If it works, you should see some information on the worksheet.
 
 Great!  Now try viewing a Day chart for power generation.  Click the **Now** button next to the word "Day", to automatically pick today's date.  Then click **Show Chart**.
 
