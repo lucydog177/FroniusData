@@ -51,17 +51,17 @@ After backing up your historical data, an energy file is created and continuousl
 
 In the evening, the Fronius inverter goes into standby mode and this tool is designed for offline use. For this reason, historical data is stored on your computer. There is one JSON file for each day. These files are the exact JSON data returned by the Fronius inverter.
 
-Your data is stored locally on your computer, here:
+Your data is stored locally on your computer, here:  
+`C:\Users\USERNAME\AppData\Roaming\FroniusData\inverter-SERIALNUMBER`
 
-`%APPDATA%\FroniusData\inverter-{SERIALNUMBER}`, where `%APPDATA%` is `{HOMEDRIVE}:\Users\{USERNAME}\AppData\Roaming`
+Press the **Files** button to open File Explorer and browse your data files.
 
-
-|**Filename**|Description                                                    
-|---|---
-|_today.json      |Today's energy data. Updated whenever you view a chart for the current day.
-|yyyy-mm-dd.json  |Complete energy data for that day.
-|archive.ini      |Summary file contains begin and end dates for historical data.
-|energy.csv       |Cumulative energy data since the first day of data collection.
+|**Filename**        |Description
+|--------------------|---
+|yyyymmdd.json|Complete energy data for a day. One file per day since the installation of your inverter.  File format is the exact JSON response returned by the inverter.
+|_today.json|Energy data for today. Updated whenever you view a chart for the current day.
+|archive.ini|Summary file contains the beginning and ending dates for your historical data.
+|energy.csv|Cumulative energy data since the first day of data collection. This is useful for uploading your energy data to a 3rd party website that allows people to share PV output data. File format is comma separated values (CSV). This format is easier to work with, compared to the data format returned by the inverter.
 
 If you try to access the inverter when it is off or in standby mode, the tool will temporarily switch to *offline mode*.  This is indicated by the presence of a time value, in the cell labeled, *Offline until*.  When you're in offline mode, the tool will not try to access the inverter everytime, and it will be faster.  The calculation of the time value for *Offline until* is automatic.  You may clear this value, if you want to re-try accessing the inverter again.
 
