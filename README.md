@@ -58,7 +58,7 @@ Press the **Files** button to open File Explorer and browse your data files.
 
 |**Filename**        |Description
 |--------------------|---
-|yyyymmdd.json|Complete energy data for a day. One file per day since the installation of your inverter.  File format is the exact JSON response returned by the inverter.
+|yyyymmdd.json|Complete energy data for a day. One file per day, since the installation date of your inverter.  File format is the exact JSON response returned by the inverter.
 |_today.json|Energy data for today. Updated whenever you view a chart for the current day.
 |archive.ini|Summary file contains the beginning and ending dates for your historical data.
 |energy.csv|Cumulative energy data since the first day of data collection. This is useful for uploading your energy data to a 3rd party website that allows people to share PV output data. File format is comma separated values (CSV). This format is easier to work with, compared to the data format returned by the inverter.
