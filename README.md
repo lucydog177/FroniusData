@@ -1,7 +1,16 @@
 # FroniusData
 ## Backup the historical data stored inside Fronius inverters using Microsoft Excel 
 
-My free year of Fronius SolarWeb has expired.  I created this tool to backup and view the energy data from my 6 kW solar tracker.
+My free year of Fronius SolarWeb has expired.  I created this tool to access the energy data from my 6 kW solar tracker.
+
+## Features
+
+- View realtime inverter data
+- Backup all archived data stored inside the inverter, to your local computer
+- Charts: Power generation for the day, energy production for the month and year
+- Offline mode gives you access to your data when the inverter turns off at night
+- Align charts to the billing cycling day and time of your electric bill
+- Detects all Fronius inverters on your local network automatically
 
 ## Setup
 
