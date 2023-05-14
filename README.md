@@ -1,7 +1,7 @@
 # FroniusData
-## View and backup historical data for Fronius inverters with Microsoft Excel
+## View and backup the historical data stored within Fronius inverters using Microsoft Excel
 
-My free year of Fronius SolarWeb has expired.  Therefore, I created this tool to backup and view the energy data for my 6 kW solar tracker.
+My free year of Fronius SolarWeb has expired.  I created this tool to backup and view the energy data from my 6 kW solar tracker.
 
 ## Setup
 
