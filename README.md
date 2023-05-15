@@ -7,7 +7,7 @@ My free year of Fronius SolarWeb has expired.  I created this tool to access the
 
 - View realtime inverter data.
 - Backup all archived data stored inside the inverter, to your local computer.
-- Detect all Fronius inverters on your local network automatically.
+- Detect all Fronius inverters on your local network, automatically.
 - Offline mode gives you access to your data when the inverter turns off at night.
 - Charts: Power generation for the day, energy production for the month and year.
 - Align charts to the billing cycling day and time of your electric bill.
