@@ -12,6 +12,13 @@ My free year of Fronius SolarWeb has expired.  I created this tool to access the
 - Charts: Power generation for the day, energy production for the month and year.
 - Align charts to the billing cycling day and time of your electric bill.
 
+## Compatibility
+
+I use Microsoft Excel 2019 on Windows 10.  There are some Windows API calls for various things, and I try to maintain compatibility with both 32-bit and 64-bit versions of Microsoft Office for Windows.  MacOS is not currently supported, unless someone wants to fork the repo.
+
+I own a Fronius inverter that feeds the electric grid on single-phase power (sometimes referred to as split-phase power in North America).  The inverter I use is this:  *Fronius Primo 6.0-1 208-240, Datalogger 3.23.6-1, SolarAPI v1.*
+
+
 ## Setup
 
 This Excel workbook uses Visual Basic for Applications (VBA).  Within Excel you need to go into the Trust Center to enable VBA and macros, as follows:
@@ -28,13 +35,6 @@ You may also want to enable the Developer menu, to view and modify the VBA code.
 
 *Main Tabs*
 - Check the Developer menu
-
-
-## Compatibility
-
-I use Microsoft Excel 2019 on Windows 10.  There are some Windows API calls for various things, and I try to maintain compatibility with both 32-bit and 64-bit versions of Microsoft Office for Windows.  MacOS is not currently supported, unless someone wants to fork the repo.
-
-I own a Fronius inverter that feeds the electric grid on single-phase power (sometimes referred to as split-phase power in North America).  The inverter I use is this:  *Fronius Primo 6.0-1 208-240, Datalogger 3.23.6-1, SolarAPI v1.*
 
 
 ## Usage
