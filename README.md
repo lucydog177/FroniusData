@@ -14,7 +14,7 @@ My free year of Fronius SolarWeb has expired.  I created this tool to access the
 
 ## Setup
 
-This Excel workbook uses Visual Basic for Applications (VBA) to get realtime data and backup historical data for Fronius grid-tied inverters.  Within Excel you need to go into the Trust Center to enable VBA and macros, as follows:
+This Excel workbook uses Visual Basic for Applications (VBA).  Within Excel you need to go into the Trust Center to enable VBA and macros, as follows:
 
 **File -> Options -> Trust Center -> Trust Center Settings...**
 
