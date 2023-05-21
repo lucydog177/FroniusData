@@ -10,7 +10,7 @@ My free year of Fronius SolarWeb has expired.  I created this tool to access the
 - Detect all Fronius inverters on your local network, automatically.
 - Offline mode gives you access to your data when the inverter turns off at night.
 - Charts: Power generation for the day, energy production for the month and year.
-- Charts: Drill down for more detail from year to month and month to day.
+- Charts: Drill down for more detail from year to month or month to day.
 - Charts: Align to billing cycling day and hour, to check your electric bill.
 
 ## Compatibility
