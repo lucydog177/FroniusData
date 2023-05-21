@@ -10,7 +10,8 @@ My free year of Fronius SolarWeb has expired.  I created this tool to access the
 - Detect all Fronius inverters on your local network, automatically.
 - Offline mode gives you access to your data when the inverter turns off at night.
 - Charts: Power generation for the day, energy production for the month and year.
-- Align charts to the billing cycling day and time of your electric bill.
+- Charts: Drill down for more detail from year to month and month to day.
+- Charts: Align to billing cycling day and hour, to check your electric bill.
 
 ## Compatibility
 
@@ -43,7 +44,9 @@ To connect with the Fronius inverter on your local Ethernet or Wi-Fi network, yo
 
 Click **Update Realtime Data** to connect to the inverter.  If you did not initially type the *Inverter hostname* or *IP address*, the tool will default the *IP address* to the first Fronius inverter found on your local network, and you will have to click the button a second time to connect.  If it works, you should see some information on the worksheet.
 
-Great!  Now try viewing a Day chart for power generation.  Click the **Now** button next to the word "Day", to automatically pick today's date.  Then click **Show Chart**.
+Great!  Now try viewing a Day chart for power generation.  Click the **Now** button next to the word "Day", to automatically pick today's date.  Then click **Show Chart** to view the power generation for today.
+
+Try viewing a Year chart by clicking **Show Chart** for the year.  Then click on a bar in the Year chart to drill down for more detail to a specific month.  Then click on a bar in the Month chart to drill down for more detail to a specific day.  Click outside a bar in the chart to go back to the previous chart.  The chart history buffer is cleared when you close Excel.
 
 You may also click **Backup Historical Data** to copy all your energy data from the inverter.  This may take some time, as the latest Fronius inverters can store up to 10 years of data with the 5 minute recording interval turned on.  My 1.5 years of data takes almost an hour to download.  However, once your data is downloaded, this tool never needs to ask the inverter again for this information.
 
