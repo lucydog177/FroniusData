@@ -15,7 +15,7 @@ My free year of Fronius SolarWeb has expired.  I created this tool to access the
 
 ## Compatibility
 
-I use Microsoft Excel 2019 on Windows 10.  There are some Windows API calls for various things, and I try to maintain compatibility with both 32-bit and 64-bit versions of Microsoft Office for Windows.  MacOS is not currently supported, unless someone wants to fork the repo.
+I use Microsoft Excel 2019 on Windows 10.  There are some Windows API calls for various things, and I try to maintain compatibility with both 32-bit and 64-bit versions of Microsoft Office for Windows.  MacOS is not currently supported, unless someone wants to fork this repo.
 
 I own a Fronius inverter that feeds the electric grid on single-phase power (sometimes referred to as split-phase power in North America).  The inverter I use is this:  *Fronius Primo 6.0-1 208-240, Datalogger 3.23.6-1, SolarAPI v1.*
 
